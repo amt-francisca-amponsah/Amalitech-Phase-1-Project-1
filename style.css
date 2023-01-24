@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
+
+
+:root{
+    --actual_font: Plus Jakarta Sans;
+}
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    overflow-x: hidden;
+    font-family: var(--actual_font);
+    /* min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative; */
+}
+
+/* html, body{
+    overflow-x: hidden;
+} */
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 56px;
+    font-family: var(--actual_font);
+    color: #13183F;
+}
+p{
+    font-size: 18px;
+    color: #83869A;
+    text-align: justify;
+    margin-top: -25px;
+    font-family: var(--actual_font);
+}
+/* @media only screen and (min-device-width:768px) and (min-device-width: 1024px){
+    .btn{
+        background-color: #13183F;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 28px;
+        width: 140px;
+        height: 48px;
+        font-size: 18px;    
+    }
+} */
+.button{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 31.5px;
+    width: 167px;
+    height: 63px;
+    font-size: 18px;
+    margin-top: 17px;
+    font-family: var(--actual_font);
+}
+.button:hover{
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+.container_header{
+    justify-content: space-between;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 80%;
+    /* background-color: rebeccapurple; */
+}
+.btn{
+    background-color: #13183F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 28px;
+    width: 167px;
+    height: 56px;
+    font-size: 18px;
+    /* margin-left: 49.2rem; */
+    font-family: var(--actual_font);
+    /* z-index: 5; */
+}
+.btn:hover{
+    cursor: pointer;
+    background: #666CA3;
+}
+.skilled{
+    margin-top: auto;
+    margin-bottom: auto;  
+}
+.sec_container{
+    justify-content: space-between;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /* background-color: #13183F; */
+    height: 600px;
+}
+.sec_con{
+    /* background-color: yellow; */
+    /* margin: auto; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.sec_content{
+    margin-top: auto;
+    margin-bottom: auto; 
+    margin-left: auto;
+    margin-right: auto; 
+    /* background-color: green; */
+    width: 470px;
+    height: 359px;
+}
+.img_hero{
+    position: absolute;
+    margin-top: -845px;
+    margin-bottom: auto;
+    margin-left: 650px; 
+    z-index: 1;
+    /* border: 1px solid red; */
+    /* background-color: #13183F; */
+}
+.tablet{
+    display: none;
+}
+.courses_page{
+    position: absolute;
+    width: 1438px;
+    height: 888px;
+    margin-top: 102.21px;
+    /* margin-bottom: ; */
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);;
+    
+}
+.courses{
+    position: absolute;
+    margin-top: -30px;
+    height: 748px;
+    /* background-color: #13183F; */
+    width: 74.2%;
+    margin-left: 133px;
+}
+.various_courses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem 0.5rem;
+    margin-top: 1.5rem;
+}
+.check_out{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    height: 322px;
+    width: 350px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    font-size: 32px;
+    margin-top: 0.9rem;
+}
+
+.check_out h3{
+    font-weight: 800;
+    font-size: 32px;
+    font-family: var(--actual_font);
+    margin-left: 1.8rem;
+    margin-top: 4rem;
+    text-align: left;
+    margin-right: 1.8rem;
+
+
+}
+
+
+.course_icon{
+    /* z-index: -5; */
+    position: relative;
+    left: 1.8rem;
+    bottom: 1.5rem;
+}
+.course_head{
+    margin-left: 1.8rem;
+    font-size: x-large;
+    color: #13183F;
+    font-family: var(--actual_font);
+}
+.course_text{
+    /* font-size: small; */
+    font-style: normal;
+    font-family: var(--actual_font);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    margin-left: 1.8rem;
+    color: #83869A;
+    margin-top: 0.5rem;
+    text-align: left;
+    margin-right: 1.8rem;
+    
+}
+.course_link{
+    position: relative;
+    top: 1rem;
+    text-decoration: none;
+    color: #F74780;
+    margin-left: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: var(--actual_font);
+    /* margin-top: 1.5rem; */
+}
+.course_link:hover{
+    cursor: pointer;
+    color: #FFA7C3;
+}
+.anim{
+    height: 322px;
+    width: 350px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 24px;
+}
+.skiled{
+    margin-top: 3.75rem;
+    margin-left: 8.2rem;
+
+}
+.get_started_btn{
+    position: absolute;
+    background-color: #13183F;
+    color: #FFFFFF;
+    border: none;
+    width: 167px;
+    height: 56px;
+    font-size: 18px;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px; 
+    margin-top: 2.7rem; 
+    margin-left: 49.50rem; 
+}
+
+.get_started_btn:hover{
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+.footer{
+    background-color: #13183F;
+    position: relative;
+    width: 100%;
+    height: 7.5rem;
+    top: 55rem;
+}
+/* .foot{
+    width: 100%;
+} */
+
+/* large screen tablets */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        overflow-x: hidden;
+        /* width: 689px; */
+    }
+
+    /* main{
+        margin: 0 40px 0 40px;
+    } */
+
+
+.container_header{
+    background-color: green;
+    width: 93%;
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.container_header img{
+    width: 86px;
+    margin-top: auto;
+    margin-bottom: auto; 
+}
+
+    /* margin: 15px 15px 0 15px; */
+
+/* .btn{
+    margin-right: 165px;
+} */
+.img_hero{
+    /* height: 95vh; */
+    /* top: 10px; */
+    /* background-image: url(/skilled-elearning-landing-page/starter-code/assets/image-hero-desktop.png); */
+    /* background-position: 18px -180px; */
+    /* background-size: auto 120%; */
+    margin-top: -47rem;
+    margin-left: 45rem;
+}
+.desktop{
+    display: none;  
+}
+.tablet{
+    display: block;
+}
+.sec_con{
+    /* background-color: blue; */
+    margin-left: -8%;
+    /* margin-right: 40%; */
+    height: 500px;
+    /* width: 75%; */
+}
+
+.sec_content{
+    /* background-color: red; */
+    margin-top: auto;
+    /* margin-bottom: 226px; */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+}
+p{
+    color: #83869A;
+    text-align: justify;
+    margin-top: -25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+.img_hero img{
+    width: 640.71px;
+    height: 640px;
+    margin-left: -20rem;
+
+}
+.various_courses{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 7rem -40rem ;
+    margin-top: 50px;
+    /* margin-bottom: 226px; */
+
+
+}
+}
+
+/* small screens (portrait phones) 
+@media only screen and (max-width :576px) {
+    body{
+        border: 1px solid greenyellow;
+        max-width: 100% !important;
+        overflow: hidden !important;
+    }
+   
+    header{
+        top: 0;
+    }
+    
+    footer{
+        bottom: 0;
+    }
+    .desktop{
+        display: none;
+    }
+    .img_hero{
+        border: 1px solid forestgreen;
+        margin-top: -7.5rem;
+        margin-left: 3rem;
+        margin-bottom: 80rem !important;
+    
+    }
+    .btn{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        width: 140px;
+        height: 48px;
+        font-family: var(--actual_font);
+    }
+    h1{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+        font-family: var(--actual_font);
+        color: #13183F;
+    }
+    p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #83869A;
+        font-family: var(--actual_font);
+    }
+    .various_courses{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+        margin-right: 40rem;
+        margin-left: -5.40rem;
+    }
+    .check_out{
+        width: 343px;
+        height: 120px;
+        margin-top: 4.4rem;
+
+    }
+    .button{
+        width: 167px;
+        height: 56px;   
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: var(--actual_font);
+    }
+    .course_head{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+        color: #13183F;
+        font-family: var(--actual_font);
+        margin-top: -0.3rem;
+    }
+.course_text{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #83869A;
+        font-family: var(--actual_font);
+        margin-top: -0.1rem;
+}
+.course_link{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    font-family: var(--actual_font);
+    margin-top: 80rem !important;
+}
+.anim{
+    width: 342px;
+    height: 259px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+}
+    .h3_check{
+        font-size: 24px !important;
+        margin-top: 1.8rem !important;
+    
+    }
+    .main{
+        border: 1px solid purple;
+        overflow: hidden;
+    }
+    .foot{
+        border: 1px solid tomato;
+    }
+    .footer{
+        background-color: #13183F;
+        position: relative;
+        width: 100%;
+        height: 7.5rem;
+        margin-top: 60rem;
+        width: 375px;
+        height: 120px;  
+
+    }
+
+    .skiled{
+        margin-left: 1rem;
+    }
+    .mobile{
+        background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+        border-radius: 28px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        font-family: var(--actual_font);
+        color: #FFFFFF;
+        margin-left: 5rem;
+        width: 140px;
+        height: 48px;
+
+
+    }
+     
+} */
