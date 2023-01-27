@@ -381,11 +381,13 @@ h1{
 }
 p{
     color: #83869A;
-    text-align: justify;
+    text-align: left;
     margin-top: -25px;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    width: 398px;
+    height:78px;
 }
 
 
@@ -444,6 +446,8 @@ margin-bottom: auto;
 }
 .course_text{
     margin-top: 16px;
+    width:286px;
+    height:78px;
 }
 
 footer{
@@ -633,8 +637,6 @@ p{
     margin-right: 1.8rem;
     margin-left: 1.8rem;
     width: 300px;
-
-
 }
 footer{
         margin-top: 80px;
