@@ -18,6 +18,10 @@ body{
     flex-direction: column;
     position: relative; */
 }
+main{
+    overflow-x: hidden;
+    width: auto;
+}
 
 /* html, body{
     overflow-x: hidden;
@@ -313,6 +317,10 @@ body{
     overflow-x: hidden;
     /* width: 689px; */
     }
+main{
+    overflow-x: hidden;
+    width: auto;
+}    
 
 .container_header{
     /* background-color: green; */
@@ -516,6 +524,10 @@ footer{
 body{
     overflow-x: hidden;
     /* width: 689px; */
+}
+main{
+    overflow-x: hidden;
+    width: auto;
 }
 .container_header{
     /* background-color: green; */
