@@ -128,24 +128,7 @@ p{
 .mobile{
     display: none;
 }
-/* .courses_page{
-    position: absolute;
-    width: 1438px;
-    height: 888px;
-    margin-top: 102.21px;
-    margin-bottom: ;
-    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
-    border: 3px solid red;
-} */
-/* .courses{
-    position: absolute;
-    margin-top: -30px;
-    height: 748px;
-    background-color: #13183F;
-    width: 74.2%;
-    margin-left: 133px;
-    border: 3px solid green;
-} */
+
 .various_courses{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -186,11 +169,9 @@ p{
     font-size: 24px;
     color: #13183F;
     font-family: var(--actual_font);
-    
-
 }
 .course_text{
-    /* font-size: small; */
+    font-size: small;
     font-style: normal;
     font-family: var(--actual_font);
     font-weight: 500;
@@ -229,6 +210,9 @@ p{
     margin-top: 15px;
     font-weight: 800;
     font-size: 24px;
+    /* display: grid;
+    grid-template-columns ; */
+
 }
 
 footer{
@@ -277,45 +261,11 @@ footer{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
 
 }
-/* footer{
-    width: 1440px;
-    height: 120px;
-    width: auto;
-    height: auto;
-    background-color: #13183F;
-}
-.foot{
-    background-color: #F02AA6;
-    justify-content: space-between;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-top: 50px;
-    width: 80%;
-} */
-/* footer, img{
-    margin-top: 40px;
-
-} */
-/* footer{
-    background-color: #13183F;
-} */
-    /* margin-top: 60px; */
-    /* margin-bottom: auto; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-
-
-/* .foot{
-    width: 100%;
-} */
 
 /* large screen tablets */
 @media only screen and (min-width: 768px) and (max-width: 1114px){
 body{
     overflow-x: hidden;
-    /* width: 689px; */
     }
 main{
     overflow-x: hidden;
@@ -341,19 +291,12 @@ main{
     font-size: 16px;
     
 }
-    /* margin: 15px 15px 0 15px; */
-
 .btn{
     width: 140px;
     height: 48px;
     font-size: 16px;
 }
 .img_hero{
-    /* height: 95vh; */
-    /* top: 10px; */
-    /* background-image: url(/skilled-elearning-landing-page/starter-code/assets/image-hero-desktop.png); */
-    /* background-position: 18px -180px; */
-    /* background-size: auto 120%; */
     margin-top: -47rem;
     margin-left: 45rem;
 }
@@ -367,26 +310,17 @@ main{
     display: none;
 }
 .sec_con{
-    /* background-color: blue; */
     margin-left: -8%;
     margin-top: 50px;
     height: 300px;
-    /* width: 75%; */
 }
 
-/* .sec_content{
-    background-color: red;
-    margin-top: auto;
-    margin-bottom: 226px;
-    margin-left: auto;
-    margin-right: auto;
-
-} */
 h1{
     font-weight: 800;
     font-size: 40px;
     line-height: 50px;
 }
+
 p{
     color: #83869A;
     text-align: left;
@@ -398,13 +332,13 @@ p{
     height:78px;
 }
 
-
 .img_hero img{
     width: 640.71px;
     height: 640px;
     margin-left: -20rem;
 
 }
+
 .various_courses{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -412,16 +346,9 @@ p{
     /* background-color:red; */
     width: 93%;
     margin-top: -100px;
-    margin-bottom: auto;
+    /* margin-bottom: auto; */
     margin-left: auto;
     margin-right: auto;
-    
-    /* grid-gap: 7rem -40rem ; */
-    /* margin-top: 50px; */
-    
-    /* margin-bottom: 226px; */
-
-
 }
 .check_out{
     width: 339px;
@@ -439,12 +366,7 @@ p{
     height: 259px;
 
 }
-/* .courses{
-    background-color:green;
-    width: 93%;
-    margin-left: auto;
-    margin-right: auto;
-} */
+
 .anim ,.course_head, .course_text, .course_link{
 margin-top: auto;
 margin-bottom: auto;
@@ -457,67 +379,13 @@ margin-bottom: auto;
     width:286px;
     height:78px;
 }
-
 footer{
-    margin-top: 86px;
+    margin-top: -40px;
 }
-
 .final_footer{
     width: 93%;
 }
-
-
 }
-
-/* .get_started_btn{
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 140px;
-    height: 48px;
-    margin-left: 70%;
-    margin-right: auto;   
-}
-footer{
-    margin-top: 50px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-.foot{
-    width: auto;
-    margin-left: auto;
-    margin-right: 700px;
-    width: 689px;
-    height: 48px;
-}
-.foot img{
-    width: 89px;
-    height: 35px;
-}
- */
-/* footer{
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-.foot{
-    align-self: center;
-    margin-top: auto;
-    margin-bottom: auto;
-} */
-
-
-
-
-/* footer{
-    background-color: #FF6F48;
-}
-.footer{
-    width: 768px;
-    height: 120px;
-} */
 
 /* small screens (portrait phones) */
 @media only screen and (min-width: 300px) and (max-width:576px){
@@ -546,25 +414,13 @@ main{
     display: block;
 }
 .img_hero{
-    /* height: 95vh; */
-    /* top: 2px; */
-    /* background-image: url(/skilled-elearning-landing-page/starter-code/assets/image-hero-desktop.png); */
-    /* background-position: 18px -180px; */
-    /* background-size: auto 120%; */
     margin-top: auto;
     margin-left:auto;
     width: 100%;
 }
 .img_hero img{
-    /* background-color: #13183F; */
-    /* width: 327px; */
-    /* height: 301px; */
     margin-top: -12rem;
-    /* margin-bottom: auto; */
-    /* margin-right: auto; */
     margin-left: -2.5rem;
-    
-    /* align-self: center; */
 }
 
 .sec_con{
@@ -574,16 +430,8 @@ main{
     margin-top: 50px;
     height: 300px;
     width: auto;
-    /* align-self: center; */
 }
-/* .sec_content{
-    background-color: red;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
 
-} */
 h1{
     font-weight: 800;
     font-size: 40px;
@@ -594,8 +442,6 @@ h1{
 p{
     color: #83869A;
     text-align: left;
-    /* margin-top: -25px; */
-    /* font-weight: 500; */
     font-size: 16px;
     line-height: 26px;
     width: 343px;
@@ -607,14 +453,8 @@ p{
     /* background-color:red; */
     width: 97%;
     margin-top: 200px;
-    margin-bottom: auto;
+    /* margin-bottom: 2px; */
     margin-left: auto;
-    /* margin-right: auto; */
-    
-    /* grid-gap: 7rem -40rem ; */
-    /* margin-top: 50px; */
-    
-    /* margin-bottom: 226px; */
 }
 .check_out{
     width: 343px;
@@ -628,8 +468,6 @@ p{
     font-weight: 800;
     font-size: 24px;
     margin-top: 30px;
-    
-    /* margin-bottom: 1px; */
 }
 .anim{
     width: 343px;
@@ -651,171 +489,13 @@ p{
     width: 300px;
 }
 footer{
-        margin-top: 80px;
+        margin-top: -40px;
 }
     
 .final_footer{
         width: 97%;
+        
 }
       
 }        
-/* .img_hero{ */
-        /* height: 95vh; */
-        /* top: 10px; */
-        /* background-image: url(/skilled-elearning-landing-page/starter-code/assets/image-hero-desktop.png); */
-        /* background-position: 18px -180px; */
-        /* background-size: auto 120%; */
-        /* margin-top: -47rem;
-        margin-left: 48rem; */
-    
-/* } */
-
-/* small screens (portrait phones) 
-@media only screen and (max-width :576px) {
-    body{
-        border: 1px solid greenyellow;
-        max-width: 100% !important;
-        overflow: hidden !important;
-    }
-   
-    header{
-        top: 0;
-    }
-    
-    footer{
-        bottom: 0;
-    }
-    .desktop{
-        display: none;
-    }
-    .img_hero{
-        border: 1px solid forestgreen;
-        margin-top: -7.5rem;
-        margin-left: 3rem;
-        margin-bottom: 80rem !important;
-    
-    }
-    .btn{
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 28px;
-        width: 140px;
-        height: 48px;
-        font-family: var(--actual_font);
-    }
-    h1{
-        font-style: normal;
-        font-weight: 800;
-        font-size: 40px;
-        line-height: 50px;
-        font-family: var(--actual_font);
-        color: #13183F;
-    }
-    p{
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        color: #83869A;
-        font-family: var(--actual_font);
-    }
-    .various_courses{
-        display: flex;
-        flex-direction: column;
-        border: 1px solid red;
-        margin-right: 40rem;
-        margin-left: -5.40rem;
-    }
-    .check_out{
-        width: 343px;
-        height: 120px;
-        margin-top: 4.4rem;
-
-    }
-    .button{
-        width: 167px;
-        height: 56px;   
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 26px;
-        font-family: var(--actual_font);
-    }
-    .course_head{
-        font-style: normal;
-        font-weight: 800;
-        font-size: 20px;
-        line-height: 25px;
-        color: #13183F;
-        font-family: var(--actual_font);
-        margin-top: -0.3rem;
-    }
-.course_text{
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        color: #83869A;
-        font-family: var(--actual_font);
-        margin-top: -0.1rem;
-}
-.course_link{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    color: #F74780;
-    font-family: var(--actual_font);
-    margin-top: 80rem !important;
-}
-.anim{
-    width: 342px;
-    height: 259px;
-    background: #FFFFFF;
-    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
-    border-radius: 10px;
-}
-    .h3_check{
-        font-size: 24px !important;
-        margin-top: 1.8rem !important;
-    
-    }
-    .main{
-        border: 1px solid purple;
-        overflow: hidden;
-    }
-    .foot{
-        border: 1px solid tomato;
-    }
-    .footer{
-        background-color: #13183F;
-        position: relative;
-        width: 100%;
-        height: 7.5rem;
-        margin-top: 60rem;
-        width: 375px;
-        height: 120px;  
-
-    }
-
-    .skiled{
-        margin-left: 1rem;
-    }
-    .mobile{
-        background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
-        border-radius: 28px;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 28px;
-        font-family: var(--actual_font);
-        color: #FFFFFF;
-        margin-left: 5rem;
-        width: 140px;
-        height: 48px;
-
-
-    }
-     
-} */
+  
