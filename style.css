@@ -270,6 +270,8 @@ body{
 main{
     overflow-x: hidden;
     width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }    
 
 .container_header{
@@ -396,6 +398,8 @@ body{
 main{
     overflow-x: hidden;
     width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container_header{
     /* background-color: green; */
@@ -472,6 +476,8 @@ p{
 .anim{
     width: 343px;
     height: 259px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .anim ,.course_head, .course_text, .course_link{
