@@ -390,25 +390,27 @@ footer{
 }
 
 /* small screens (portrait phones) */
-@media only screen and (min-width: 320px) and (max-width:480px){
-body{
+@media only screen and (min-width: 300px) and (max-width:567px){
+/* body{
     overflow-x: hidden;
-    /* width: 689px; */
-}
-main{
+    width: 689px; 
+} */
+/*main{
     overflow-x: hidden;
-    width: auto;
+     margin: 15px; */
+    /* width: auto;
     margin-left: auto;
     margin-right: auto;
-}
-.container_header{
-    /* background-color: green; */
+    align-self: center; */
+/* } */
+/* .container_header{
+    background-color: green;
     width: 97%;
     height: auto;
     justify-content: space-between;
     display: flex;
-}  
-.desktop{
+}   */
+/* .desktop{
     display: none;  
 }
 .tablet{
@@ -425,10 +427,10 @@ main{
 .img_hero img{
     margin-top: -12rem;
     margin-left: -2.5rem;
-}
+} */
 
-.sec_con{
-    /* background-color: blue; */
+/* .sec_con{
+    background-color: blue;
     margin-left: -1.8rem;
     margin-right: auto;
     margin-top: 50px;
@@ -449,6 +451,146 @@ p{
     font-size: 16px;
     line-height: 26px;
     width: 343px;
+} */
+/* .various_courses{
+    width: 375px;
+    height: 1695px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    column-gap: 16px;
+    background-color:red;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.check_out{
+    width: 343px;
+    height: 120px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.check_out h3{
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.anim{
+    width: 343px;
+    height: 259px;
+    margin-left: auto;
+    margin-right: 0;
+
+}
+.anim ,.course_head, .course_text, .course_link{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.course_head{
+    font-size: 20px;
+} */
+/* .course_text{
+    background-color: #F02AA6;
+    margin-top: 16px;
+    margin-right: 1.8rem;
+    margin-left: 1.8rem;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+        margin-top: -40px;
+}
+    
+.final_footer{
+        width: 97%;
+        
+}
+      
+}         */
+
+body{
+    overflow-x: hidden;
+    /* width: 689px; */
+}
+main{
+    overflow-x: hidden;
+    width: auto;
+}
+.container_header{
+    /* background-color: green; */
+    width: 97%;
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+}  
+.desktop{
+    display: none;  
+}
+.tablet{
+    display: none;
+}
+.mobile{
+    display: block;
+}
+.img_hero{
+    /* height: 95vh; */
+    /* top: 2px; */
+    /* background-image: url(/skilled-elearning-landing-page/starter-code/assets/image-hero-desktop.png); */
+    /* background-position: 18px -180px; */
+    /* background-size: auto 120%; */
+    margin-top: auto;
+    margin-left:auto;
+    width: 100%;
+}
+.img_hero img{
+    /* background-color: #13183F; */
+    /* width: 327px; */
+    /* height: 301px; */
+    margin-top: -12rem;
+    /* margin-bottom: auto; */
+    /* margin-right: auto; */
+    margin-left: -2.5rem;
+    
+    /* align-self: center; */
+}
+.sec_con{
+    /* background-color: blue; */
+    margin-left: -1.8rem;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 300px;
+    width: auto;
+    /* align-self: center; */
+}
+/* .sec_content{
+    background-color: red;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+} */
+h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    width: 343px;
+    height: 101px;
+    
+}
+p{
+    color: #83869A;
+    text-align: left;
+    /* margin-top: -25px; */
+    /* font-weight: 500; */
+    font-size: 16px;
+    line-height: 26px;
+    width: 343px;
 }
 .various_courses{
     display: grid;
@@ -457,8 +599,14 @@ p{
     /* background-color:red; */
     width: 97%;
     margin-top: 200px;
-    /* margin-bottom: 2px; */
+    margin-bottom: auto;
     margin-left: auto;
+    /* margin-right: auto; */
+    
+    /* grid-gap: 7rem -40rem ; */
+    /* margin-top: 50px; */
+    
+    /* margin-bottom: 226px; */
 }
 .check_out{
     width: 343px;
@@ -472,13 +620,12 @@ p{
     font-weight: 800;
     font-size: 24px;
     margin-top: 30px;
+    
+    /* margin-bottom: 1px; */
 }
 .anim{
     width: 343px;
     height: 259px;
-    margin-left: auto;
-    margin-right: auto;
-
 }
 .anim ,.course_head, .course_text, .course_link{
     margin-top: auto;
@@ -495,12 +642,11 @@ p{
     width: 300px;
 }
 footer{
-        margin-top: -40px;
+        margin-top: 80px;
 }
     
 .final_footer{
         width: 97%;
-        
 }
       
 }        
