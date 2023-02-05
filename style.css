@@ -541,7 +541,7 @@ footer{
     body{
         overflow-x: hidden;
         /* width: 689px;  */
-        border: 1px solid gold;
+        /* border: 1px solid gold; */
         width: 100%;
         margin-left: auto;
         margin-right: auto;
